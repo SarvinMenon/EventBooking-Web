@@ -1,0 +1,84 @@
+.button {
+  background-color: #fce7df;
+  border: none;
+  color: black;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2vw;
+  cursor: pointer;
+  box-shadow: 0.4vw 0.4vw #eac8bb;
+  border-radius : 0.6vw;
+  margin: 5vw 0 10vw 25vw;
+  font-family: 'Playfair Display', serif;
+}
+
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.homepic{
+  position: absolute;
+  top: 17vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+
+}
+
+.titletext {
+  position: absolute;
+  top: 25vw;
+  left: 40%;
+  transform: translate(-30%, -50%);
+  color: #fce7df;
+  font-family: 'Playfair Display', serif;
+  font-size: 7vw;
+
+}
+
+.subtitle{
+  position: absolute;
+  top: 30vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fce7df;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+}
+
+
+.tnavbar {
+  overflow: hidden;
+  background-color: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0% auto;
+  left: 0;
+  right: 0;
+
+}
+
+.tnavbar a {
+  color: white;
+  font-weight: bold;
+  float: left;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  padding: 0.8em 1em;
+  text-decoration: none;
+  font-size: 1.5vw;
+  margin-left: 4.5em;
+}
+
+.tnavbar a:hover {
+  color: #744a46;
+
+}

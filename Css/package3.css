@@ -1,0 +1,148 @@
+
+
+input[type=text],input[type=email],input[type=date],  textarea {
+  width: 100%;
+  padding: 0.6vw;
+  border: 0.2vw solid #978682;
+  box-sizing: border-box ;
+  margin-top: 0.5vw;
+  margin-bottom: 1.8vw;
+  resize: vertical;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1vw;
+
+}
+
+input[type=submit] {
+  background-color: #fce7df;
+  border: none;
+  color: black;
+  padding: 1vw 2vw;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 19vw;
+  font-size: 1.2vw;
+  cursor: pointer;
+  box-shadow: 0.4vw 0.4vw #eac8bb;
+  border-radius : 0.6vw;
+  font-family: 'Playfair Display', serif;
+
+}
+
+
+input[type=submit]:hover {
+  color: #978682;
+
+}
+
+.container {
+  padding: 2vw;
+  font-size: 1.2vw;
+  margin: auto;
+  width: 70%;
+  height: 10%;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2vw;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 27vw;
+  padding: 1vw;
+  height: 20vw; /* Should be removed. Only for demonstration */
+  margin-bottom: 10vw;
+  /*background-color: blue;*/
+
+}
+.column2 {
+  float: left;
+  width: 55vw;
+  padding: 1vw;
+  height: 20vw; /* Should be removed. Only for demonstration */
+  margin-top: -2.6vw;;
+/* background-color: green; */
+}
+
+.row{
+  margin-left: 10vw;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+h1{
+  font-size:2.5vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+h2{
+  font-size:2vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+}
+.column2 p{
+  text-align: left;
+  font-family: 'Assistant', sans-serif;
+  font-size: 1.25vw;
+}
+
+
+/* Book now button */
+.button_container {
+	position: absolute;
+  margin-top: 2vw;
+}
+
+.btnn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #744a46;
+  font-weight: 700;
+  font-size: 1vw;
+  background-color: #fce7df;
+  padding: 1.2vw 7vw;
+  margin: 0 auto;
+  box-shadow: 0 1vw 1vw #744a46;
+}
+
+.btnn span {
+  position: relative;
+  z-index: 1;
+}
+
+.btnn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #fff4f0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btnn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}

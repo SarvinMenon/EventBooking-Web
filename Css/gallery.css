@@ -1,0 +1,12 @@
+
+
+figure img{
+  width: 28%;
+  height:100%;
+  object-fit:cover;
+  margin-left: 3.5vw;
+}
+
+figure{
+  margin-top: 3.5vw;
+}

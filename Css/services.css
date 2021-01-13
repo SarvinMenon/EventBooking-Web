@@ -1,0 +1,91 @@
+img{
+  width:35vw;
+  height:100%;
+  object-fit:cover;
+}
+
+h2{
+  text-align: left;
+  margin: 2vw;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8vw;
+}
+
+#service p{
+  text-align: justify;
+  margin:2vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3vw;
+}
+
+#service{
+  margin: auto;
+  width: 66vw;
+  margin-bottom: 40vw;
+}
+
+#pic1{
+width:30vw;
+height:100%;
+float: left;
+
+}
+
+#box1{
+width:40vw;
+height:25vw;
+background:#744a46;
+margin: -16vw 30vw;
+float: left;
+text-align: center;
+color: white;
+}
+
+#pic2{
+  width:30vw;
+  height:100%;
+  float: left;
+  margin: 0vw 35vw;
+}
+
+#box2{
+width:40vw;
+height:25vw;
+background:#ab6861;
+float: left;
+margin: -16vw 1vw;
+color: white;
+}
+
+#pic3{
+width:30vw;
+height:100%;
+float: left;
+margin: 17vw 1vw;
+
+}
+
+#box3{
+  width:40vw;
+  height:25vw;
+  background:#744a46;
+  margin: -33vw 30vw;
+  float: left;
+  color: white;
+}
+
+#pic4{
+  width:30vw;
+  height:100%;
+  float: left;
+  margin: 0vw 35vw;
+}
+
+#box4{
+width:40vw;
+height:25vw;
+background:#ab6861;
+float: left;
+margin: -16vw 1vw;
+color: white;
+}
